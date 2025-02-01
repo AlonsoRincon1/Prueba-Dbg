@@ -10,7 +10,6 @@ class Ticket extends Model
     use HasFactory;
     protected $table = 'tickets'; 
 
-    // Los campos que pueden ser asignados masivamente
     protected $fillable = [
         'usuario_id',
         'ubicacion',
